@@ -1,8 +1,9 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
+import NavigationBar from './NavBar'
 import Home from './home'
-import SignUp from './signup'
-import SignIn from './signin'
+import SignUp from './signup/SignupPage'
+import SignIn from './login/LoginPage'
 import PasswordReset from './password_reset'
 import Dashboard from './dashboard'
 
@@ -14,13 +15,13 @@ import Dashboard from './dashboard'
 // when the pathname is exactly the string "/"
 const Main = () => (
   <main>
+    <NavigationBar/>
     <Switch>
         <Route exact path='/' component={Home} />
         <Route path='/signup' component={SignUp}/>
-        <Route path='/signin' component={SignIn}/>
+        <Route path='/login' component={SignIn}/>
         <Route path='/passwordreset' component={PasswordReset}/>
         <Route path='/dashboard' component={Dashboard}/>
-        
     </Switch>
   </main>
 )

@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
-import logo from '../logo.svg';
+
 
 
 class PasswordReset extends Component{
@@ -11,9 +11,6 @@ class PasswordReset extends Component{
         <div className="row">
         
             <div className="col-md-4 col-md-offset-4">
-                <div className="centerImg">
-                    <img src={logo} className="App-logo" alt="logo" />
-                </div>
                 <form id="signup" className="well well-lg"name="signup" method="post" action="/signup">
                     <div className="form-group">
                         <label className="label-form" for="email">Pregunta de seguridad</label>

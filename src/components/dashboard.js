@@ -16,7 +16,7 @@ const Dashboard = () => (
                 </div>
 
                 <div className="c-article-tile__body">
-                <img className="img_size" src={testtubes}/>
+                <img className="img_size" alt="tube" src={testtubes}/>
                 </div>
 
                 <footer className="c-article-tile__footer">
@@ -40,7 +40,7 @@ const Dashboard = () => (
                 </div>
 
                 <div className="c-article-tile__body">
-                    <img className="img_size" src={testtubes}/>
+                    <img className="img_size" alt="tube" src={testtubes}/>
                 </div>
 
                 <footer className="c-article-tile__footer">
@@ -64,7 +64,7 @@ const Dashboard = () => (
                 </div>
 
                 <div className="c-article-tile__body">
-                <img className="img_size" src={testtubes}/>
+                <img className="img_size" alt="tube" src={testtubes}/>
                 </div>
 
                 <footer className="c-article-tile__footer">
@@ -87,7 +87,7 @@ const Dashboard = () => (
                 </div>
 
                 <div className="c-article-tile__body">
-                <img className="img_size" src={testtubes}/>
+                <img className="img_size" alt="tube" src={testtubes}/>
                 </div>
 
                 <footer className="c-article-tile__footer">
